@@ -1,8 +1,8 @@
-// Type definitions for [odoo-xmlrpc]
-// Project: [odoo-xmlrpc]
+// Type definitions for [@utillity/odoo-xmlrpc]
+// Project: [@utillity/odoo-xmlrpc]
 // Definitions by: [Tilfried uTILLIty Weissenberger]
 
-declare module 'odoo-xmlrpc';
+declare module '@utillity/odoo-xmlrpc';
 
 declare interface OdooConfig {
   url: string
@@ -28,3 +28,5 @@ declare class Odoo {
   exec_workflow<T>(model: string, method: string, params: OdooParam[], callback: OdooCallback<T[]>): void;
   render_report<T>(report: string, params: OdooParam[], callback: OdooCallback<T>): void;
 }
+
+export = Odoo;
