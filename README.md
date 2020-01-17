@@ -2,6 +2,9 @@
 
 Node.js client library for [odoo](https://www.odoo.com/) ERP using xmlrpc.
 
+> This fork has added a type-definition file (.d.ts) for TypeScript (VSCode) and also
+> added some settings in regards to SSL certificate handling
+
 ## Node version
 Works better with NodeJS v11.16 and further
 
